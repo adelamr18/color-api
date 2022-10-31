@@ -7,13 +7,13 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "php -S localhost:8080 -t public/",
+    "start": "php -S localhost:8001 -t public/",
     "test": "php ./vendor/bin/phpunit --colors=always tests/"
   },
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@prettier/plugin-php": "^0.17.3",
-    "prettier": "^2.3.2"
+    "@prettier/plugin-php": "^0.18.4",
+    "prettier": "^2.6.1"
   }
 }

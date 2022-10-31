@@ -29,3 +29,7 @@ final class ColorEndpointTest extends TestCase
         self::assertEquals([], $this->endpoint->handle($request->reveal()));
     }
 }
+//create 201
+//get 200
+//delete 200
+//put 
